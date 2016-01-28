@@ -20,6 +20,7 @@
 		F10ABCC71C507DBD00B30468 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F10ABCC11C507DBD00B30468 /* GCDQueue.m */; };
 		F10ABCC81C507DBD00B30468 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = F10ABCC31C507DBD00B30468 /* GCDSemaphore.m */; };
 		F10ABCC91C507DBD00B30468 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F10ABCC51C507DBD00B30468 /* GCDTimer.m */; };
+		F17180991C59ED4200D15AF3 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17180981C59ED4200D15AF3 /* TimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		F10ABCC31C507DBD00B30468 /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
 		F10ABCC41C507DBD00B30468 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
 		F10ABCC51C507DBD00B30468 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		F17180971C59ED4200D15AF3 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		F17180981C59ED4200D15AF3 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +172,7 @@
 		F10ABCBC1C507DBD00B30468 /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				F17180961C59ED2000D15AF3 /* 定时器 */,
 				F101487E1C55099A00082619 /* 线程组 */,
 				F10ABCBD1C507DBD00B30468 /* GCD.h */,
 				F10ABCBE1C507DBD00B30468 /* GCDGroup.h */,
@@ -181,6 +185,15 @@
 				F10ABCC51C507DBD00B30468 /* GCDTimer.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		F17180961C59ED2000D15AF3 /* 定时器 */ = {
+			isa = PBXGroup;
+			children = (
+				F17180971C59ED4200D15AF3 /* TimerViewController.h */,
+				F17180981C59ED4200D15AF3 /* TimerViewController.m */,
+			);
+			name = "定时器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +329,7 @@
 				F10ABCC61C507DBD00B30468 /* GCDGroup.m in Sources */,
 				F10ABC911C507CDA00B30468 /* ViewController.m in Sources */,
 				F10148811C5509B900082619 /* ThreadGroupViewController.m in Sources */,
+				F17180991C59ED4200D15AF3 /* TimerViewController.m in Sources */,
 				F10ABC8E1C507CDA00B30468 /* AppDelegate.m in Sources */,
 				F10ABC8B1C507CDA00B30468 /* main.m in Sources */,
 				F10ABCC91C507DBD00B30468 /* GCDTimer.m in Sources */,

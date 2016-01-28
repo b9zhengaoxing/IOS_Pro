@@ -25,16 +25,43 @@
                                     <segue destination="491-No-fHc" kind="show" id="ylO-9p-fTI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Od3-JW-XDf">
+                                <rect key="frame" x="20" y="58" width="45" height="30"/>
+                                <state key="normal" title="定时器"/>
+                                <connections>
+                                    <segue destination="cHw-Dj-hju" kind="show" id="XcT-ZD-EE1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WGN-Do-H2J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ite-zs-0Ef"/>
                             <constraint firstItem="WGN-Do-H2J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eir-rx-xNT"/>
+                            <constraint firstItem="Od3-JW-XDf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lhJ-zs-12L"/>
+                            <constraint firstItem="Od3-JW-XDf" firstAttribute="top" secondItem="WGN-Do-H2J" secondAttribute="bottom" constant="8" id="rpQ-OZ-H9c"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="heo-cc-acM">
+            <objects>
+                <viewController id="cHw-Dj-hju" customClass="TimerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v7P-ko-pRl"/>
+                        <viewControllerLayoutGuide type="bottom" id="sSY-t7-jWG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RXj-ld-Zad">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vlq-jp-bbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="-86"/>
         </scene>
         <!--Thread Group View Controller-->
         <scene sceneID="Ttr-bz-jaG">
@@ -52,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c5u-6o-O9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064" y="354"/>
+            <point key="canvasLocation" x="1022" y="578"/>
         </scene>
     </scenes>
 </document>
