@@ -32,12 +32,21 @@
                                     <segue destination="cHw-Dj-hju" kind="show" id="XcT-ZD-EE1"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7dG-Lp-s38">
+                                <rect key="frame" x="20" y="96" width="45" height="30"/>
+                                <state key="normal" title="信号量"/>
+                                <connections>
+                                    <segue destination="gXw-Re-lxZ" kind="show" id="97L-HA-LLb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WGN-Do-H2J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Ite-zs-0Ef"/>
+                            <constraint firstItem="7dG-Lp-s38" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="XBM-sL-ADu"/>
                             <constraint firstItem="WGN-Do-H2J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eir-rx-xNT"/>
                             <constraint firstItem="Od3-JW-XDf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lhJ-zs-12L"/>
+                            <constraint firstItem="7dG-Lp-s38" firstAttribute="top" secondItem="Od3-JW-XDf" secondAttribute="bottom" constant="8" id="rlc-jT-Mc2"/>
                             <constraint firstItem="Od3-JW-XDf" firstAttribute="top" secondItem="WGN-Do-H2J" secondAttribute="bottom" constant="8" id="rpQ-OZ-H9c"/>
                         </constraints>
                     </view>
@@ -62,6 +71,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vlq-jp-bbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1022" y="-86"/>
+        </scene>
+        <!--Semphore View Controller-->
+        <scene sceneID="dWY-Kd-4KE">
+            <objects>
+                <viewController id="gXw-Re-lxZ" customClass="SemphoreViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MdQ-xN-0VL"/>
+                        <viewControllerLayoutGuide type="bottom" id="mxZ-uF-EZU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="moA-fa-XnS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5U5-qr-7TG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="-748"/>
         </scene>
         <!--Thread Group View Controller-->
         <scene sceneID="Ttr-bz-jaG">

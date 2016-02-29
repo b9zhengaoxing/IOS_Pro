@@ -1,2 +1,6 @@
-# LJFCocoaPro
-Cocoa Pro 记录了IOS学习路上的点滴
+# IOS进阶
+1. 内存管理
+2. 多线程
+3. 对象原型
+4. 热更新
+5. UIWindow
